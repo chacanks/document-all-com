@@ -5,6 +5,7 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import MenuItem from 'material-ui/MenuItem';
 import RaisedButton from 'material-ui/RaisedButton';
+import ReqListLayout from './ReqListLayout';
 
 class MainLayout extends Component {
 
@@ -35,6 +36,7 @@ class MainLayout extends Component {
           <MenuItem>메뉴</MenuItem>
           <MenuItem>메뉴</MenuItem>
         </Drawer>
+        <ReqListLayout />
       </div>
     );
   }
